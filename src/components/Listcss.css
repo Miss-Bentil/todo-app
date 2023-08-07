@@ -1,0 +1,59 @@
+.task-style {
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+
+}
+
+.task-style .check .task-name {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.task-number{
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    border: 1px solid black;
+    
+}
+
+.task-style div {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.icondel:hover {
+    color: red;
+}
+
+.iconedit:hover{
+    color:blue
+}
+
+.iconcheck:hover {
+    color:green
+}
+
+.list-wrapper{
+    padding-bottom: 10px;
+}
