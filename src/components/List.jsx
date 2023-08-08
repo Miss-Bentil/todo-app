@@ -23,7 +23,7 @@ function List({ taskData, deletetask, donetask, edittask, handleundo }) {
 
     return (
       <div key={data.id}>
-        <div className="task-style">
+        <div className="task-style styles">
           <div className={data.status ? "check" : ""}>
             <span className="task-number">{index + 1}</span>
             <span className="task-name">{data.name}</span>
